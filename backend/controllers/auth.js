@@ -29,7 +29,7 @@ module.exports.login = async function (req, res) {
 		}
 	} else {
 		res.status(404).json({
-			massage: 'Пользователя с таким email не существует'
+			message: 'Пользователя с таким email не существует'
 		});
 	}
 };
